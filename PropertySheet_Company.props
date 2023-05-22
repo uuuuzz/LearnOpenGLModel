@@ -3,12 +3,12 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>E:\OpenGL\assimp-5.2.5\assimp-5.2.5\include\assimp;E:\OpenGL\glm-0.9.8.5\glm;E:\OpenGL\glad\include;E:\OpenGL\glfw-3.3.8.bin.WIN32\glfw-3.3.8.bin.WIN32\include;$(IncludePath)</IncludePath>
-    <LibraryPath>E:\OpenGL\assimp-5.2.5\Build\lib\Debug;E:\OpenGL\glfw-3.3.8.bin.WIN32\glfw-3.3.8.bin.WIN32\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\OpenGL\glm-0.9.8.5\glm;E:\OpenGL\glad\include;E:\OpenGL\glfw-3.3.8.bin.WIN32\glfw-3.3.8.bin.WIN32\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\OpenGL\glfw-3.3.8.bin.WIN32\glfw-3.3.8.bin.WIN32\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />

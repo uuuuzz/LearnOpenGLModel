@@ -30,6 +30,9 @@
     <ClCompile Include="Mesh.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="awesomeface.png">
@@ -67,11 +70,15 @@
     <ClInclude Include="Mesh.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="color.frag" />
     <None Include="color.vert" />
     <None Include="light_cube.frag" />
     <None Include="light_cube.vert" />
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
