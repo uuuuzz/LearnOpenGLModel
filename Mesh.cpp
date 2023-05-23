@@ -19,11 +19,11 @@ void Mesh::Draw(Shader& shader)
     unsigned int heightNr = 1;
     for (unsigned int i = 0; i < textures.size(); i++)
     {
-        glActiveTexture(GL_TEXTURE0 + i);                       //在绑定前激活适当的纹理单元
+        glActiveTexture(GL_TEXTURE0 + i);                         //在绑定前激活适当的纹理单元
         string number;
         string name = textures[i].type;
         if (name == "texture_diffuse")
-            number == std::to_string(diffuseNr++);          //将unsigned int转化为字符串
+            number = std::to_string(diffuseNr++);          //将unsigned int转化为字符串
         else if (name == "texture_specular")
             number = std::to_string(specularNr++);
         else if (name == "texture_normal")
